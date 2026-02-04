@@ -28,33 +28,33 @@
 Like a no-look pass in basketball, you're throwing context to your future self without seeing where it lands.
 
 ```
-                    ╔═══════════════════════════════════════════════════════════╗
-                    ║                   THE NO-LOOK PASS                        ║
-                    ╚═══════════════════════════════════════════════════════════╝
+                       ╔═════════════════════════════════════════════╗
+                       ║            THE NO-LOOK PASS                 ║
+                       ╚═════════════════════════════════════════════╝
 
-     CONTEXT FULL                     CLEAR                        FRESH START
-    ┌───────────┐                  ┌─────────┐                   ┌───────────┐
-    │  ██████   │                  │         │                   │  ░░░░░░   │
-    │  ██████   │   /alleyoop      │ /clear  │    /slamdunk      │  ░░░░░░   │
-    │  ██████   │ ───────────────► │         │ ────────────────► │  ░░░░░░   │
-    │  ██████   │   Toss it up!    │   🧹    │   Catch & slam!   │  READY!   │
-    │  ██████   │                  │         │                   │           │
-    └───────────┘                  └─────────┘                   └───────────┘
-         │                                                             │
-         │  Creates                                         Restores   │
-         │  HANDOFF-ALLEYOOP.md                            context     │
-         │         │                                           │       │
-         │         ▼                                           │       │
-         │    ┌─────────────────────────────────────┐          │       │
-         │    │  📄 HANDOFF-ALLEYOOP.md             │──────────┘       │
-         │    │  ├── Objective                      │                  │
-         │    │  ├── Progress (what's done)         │                  │
-         │    │  ├── Remaining (what's left)        │                  │
-         │    │  ├── Key decisions                  │                  │
-         │    │  └── Next action                    │                  │
-         │    └─────────────────────────────────────┘                  │
-         │                                                             │
-         └─────────────────────────────────────────────────────────────┘
+  CONTEXT FULL                      CLEAR                       FRESH START
+ ┌─────────────┐                ┌───────────┐                 ┌─────────────┐
+ │   ██████    │                │           │                 │   ░░░░░░    │
+ │   ██████    │  /alleyoop     │  /clear   │   /slamdunk     │   ░░░░░░    │
+ │   ██████    │ ─────────────► │           │ ──────────────► │   ░░░░░░    │
+ │   ██████    │  Toss it up!   │    🧹     │  Catch & slam!  │   READY!    │
+ │   ██████    │                │           │                 │             │
+ └─────────────┘                └───────────┘                 └─────────────┘
+        │                                                            │
+        │  Creates                                        Restores   │
+        │  HANDOFF-ALLEYOOP.md                           context     │
+        │         │                                          │       │
+        │         ▼                                          │       │
+        │    ┌───────────────────────────────────┐           │       │
+        │    │  HANDOFF-ALLEYOOP.md              │───────────┘       │
+        │    │  ├── Objective                    │                   │
+        │    │  ├── Progress (what's done)       │                   │
+        │    │  ├── Remaining (what's left)      │                   │
+        │    │  ├── Key decisions                │                   │
+        │    │  └── Next action                  │                   │
+        │    └───────────────────────────────────┘                   │
+        │                                                            │
+        └────────────────────────────────────────────────────────────┘
                               Your work is SAFE
 ```
 
@@ -63,19 +63,19 @@ Like a no-look pass in basketball, you're throwing context to your future self w
 ## 📍 Important: Stay in Your Project Folder!
 
 ```
-  ⚠️  CRITICAL: You must be cd'd into your project folder!
-
-  ┌──────────────────────────────────────────────────────────────────────┐
-  │                                                                      │
-  │    The handoff file is created IN YOUR CURRENT DIRECTORY.            │
-  │                                                                      │
-  │    ✅  cd ~/projects/my-awesome-app                                  │
-  │        /alleyoop                                                     │
-  │                                                                      │
-  │    ❌  cd ~                                                          │
-  │        /alleyoop    ← Handoff goes to wrong place!                   │
-  │                                                                      │
-  └──────────────────────────────────────────────────────────────────────┘
+  ╔════════════════════════════════════════════════════════════════════╗
+  ║  ⚠️  CRITICAL: You must be cd'd into your project folder!          ║
+  ╠════════════════════════════════════════════════════════════════════╣
+  ║                                                                    ║
+  ║    The handoff file is created IN YOUR CURRENT DIRECTORY.          ║
+  ║                                                                    ║
+  ║    ✅  cd ~/projects/my-awesome-app                                ║
+  ║        /alleyoop                                                   ║
+  ║                                                                    ║
+  ║    ❌  cd ~                                                        ║
+  ║        /alleyoop    ← Handoff goes to wrong place!                 ║
+  ║                                                                    ║
+  ╚════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -83,14 +83,14 @@ Like a no-look pass in basketball, you're throwing context to your future self w
 ## 🎯 When to Use It
 
 ```
-         CONTEXT METER
-    ┌─────────────────────┐
-    │ ░░░░░░░░░░░░░░░░░░░ │  0-30%   Keep working!
-    │ ▓▓▓▓▓▓▓▓▓░░░░░░░░░░ │  30-50%  Still good
-    │ ▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░ │  50-60%  ⚡ RUN /alleyoop NOW! ⚡
-    │ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ │  70-80%  Danger zone
+           CONTEXT METER
+    ┌───────────────────────┐
+    │ ░░░░░░░░░░░░░░░░░░░░░ │  0-30%   Keep working!
+    │ ▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░ │  30-50%  Still good
+    │ ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░ │  50-60%  ⚡ RUN /alleyoop NOW! ⚡
+    │ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░ │  70-80%  Danger zone
     │ █████████████████████ │  90%+   Too late... context may be lost
-    └─────────────────────┘
+    └───────────────────────┘
 
     💡 TIP: Run /alleyoop at 50-60% context usage for the cleanest handoff!
 ```
@@ -101,66 +101,66 @@ Like a no-look pass in basketball, you're throwing context to your future self w
 
 ### Step 1: Work on Your Project
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
-│ $ cd ~/projects/my-awesome-app                                             │
-│                                                                            │
-│ You: "Help me build a user authentication system"                          │
-│ Claude: [works on your code, makes progress...]                            │
-│                                                                            │
-│ ... time passes, context fills up ...                                      │
-│                                                                            │
-│ [Context: ▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░ 55%]                                         │
-└────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────┐
+│ $ cd ~/projects/my-awesome-app                                       │
+│                                                                      │
+│ You: "Help me build a user authentication system"                    │
+│ Claude: [works on your code, makes progress...]                      │
+│                                                                      │
+│ ... time passes, context fills up ...                                │
+│                                                                      │
+│ [Context: ▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░ 55%]                                   │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Step 2: Toss the Alley-Oop 🏀
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
-│ You: /alleyoop                                                             │
-│                                                                            │
-│ Claude: "Handoff created: HANDOFF-ALLEYOOP.md"                             │
-│                                                                            │
-│         Summary:                                                           │
-│         - Objective: Build user authentication system                      │
-│         - Progress: 65% | 8/12 items complete                              │
-│         - Next: Implement password reset flow                              │
-│                                                                            │
-│         To resume: /slamdunk                                               │
-└────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────┐
+│ You: /alleyoop                                                       │
+│                                                                      │
+│ Claude: "Handoff created: HANDOFF-ALLEYOOP.md"                       │
+│                                                                      │
+│         Summary:                                                     │
+│         - Objective: Build user authentication system                │
+│         - Progress: 65% | 8/12 items complete                        │
+│         - Next: Implement password reset flow                        │
+│                                                                      │
+│         To resume: /slamdunk                                         │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Step 3: Clear the Court
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
-│ You: /clear                                                                │
-│                                                                            │
-│ [Context cleared - fresh start!]                                           │
-│                                                                            │
-│ [Context: ░░░░░░░░░░░░░░░░░░░ 0%]                                           │
-└────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────┐
+│ You: /clear                                                          │
+│                                                                      │
+│ [Context cleared - fresh start!]                                     │
+│                                                                      │
+│ [Context: ░░░░░░░░░░░░░░░░░░░ 0%]                                     │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Step 4: Slam Dunk! 🏆
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
-│ You: /slamdunk                                                             │
-│                                                                            │
-│ Claude: "Session Restored!"                                                │
-│                                                                            │
-│         Project: my-awesome-app                                            │
-│         Objective: Build user authentication system                        │
-│         Progress: 65% complete | 8/12 items done                           │
-│                                                                            │
-│         Remaining:                                                         │
-│         - [ ] Implement password reset flow                                │
-│         - [ ] Add email verification                                       │
-│         - [ ] Write tests                                                  │
-│         - [ ] Update documentation                                         │
-│                                                                            │
-│         Suggested next action: Implement password reset flow               │
-│                                                                            │
-│         Ready to continue? [Y/n]                                           │
-└────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────┐
+│ You: /slamdunk                                                       │
+│                                                                      │
+│ Claude: "Session Restored!"                                          │
+│                                                                      │
+│         Project: my-awesome-app                                      │
+│         Objective: Build user authentication system                  │
+│         Progress: 65% complete | 8/12 items done                     │
+│                                                                      │
+│         Remaining:                                                   │
+│         - [ ] Implement password reset flow                          │
+│         - [ ] Add email verification                                 │
+│         - [ ] Write tests                                            │
+│         - [ ] Update documentation                                   │
+│                                                                      │
+│         Suggested next action: Implement password reset flow         │
+│                                                                      │
+│         Ready to continue? [Y/n]                                     │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -203,34 +203,34 @@ Copy-Item commands\slamdunk.md $env:USERPROFILE\.claude\commands\
 ## 📦 What Gets Saved
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    HANDOFF-ALLEYOOP.md                          │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  📎 METADATA                                                    │
-│     project: my-awesome-app                                     │
-│     timestamp: 2025-02-04T12:15:00                              │
-│                                                                 │
-│  🎯 OBJECTIVE                                                   │
-│     What you're trying to accomplish                            │
-│                                                                 │
-│  📊 PROGRESS                                                    │
-│     ✅ Completed items                                          │
-│     ⬜ Remaining items                                          │
-│                                                                 │
-│  🧠 KEY DECISIONS                                               │
-│     Why you chose certain approaches                            │
-│                                                                 │
-│  🚧 BLOCKERS                                                    │
-│     Issues encountered and workarounds                          │
-│                                                                 │
-│  📝 UNCOMMITTED CHANGES                                         │
-│     Files modified but not yet committed                        │
-│                                                                 │
-│  ➡️  NEXT ACTION                                                │
-│     Specific first step for next session                        │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+╔═══════════════════════════════════════════════════════════════╗
+║                   HANDOFF-ALLEYOOP.md                         ║
+╠═══════════════════════════════════════════════════════════════╣
+║                                                               ║
+║  📎 METADATA                                                  ║
+║     project: my-awesome-app                                   ║
+║     timestamp: 2025-02-04T12:15:00                            ║
+║                                                               ║
+║  🎯 OBJECTIVE                                                 ║
+║     What you're trying to accomplish                          ║
+║                                                               ║
+║  📊 PROGRESS                                                  ║
+║     ✅ Completed items                                        ║
+║     ⬜ Remaining items                                        ║
+║                                                               ║
+║  🧠 KEY DECISIONS                                             ║
+║     Why you chose certain approaches                          ║
+║                                                               ║
+║  🚧 BLOCKERS                                                  ║
+║     Issues encountered and workarounds                        ║
+║                                                               ║
+║  📝 UNCOMMITTED CHANGES                                       ║
+║     Files modified but not yet committed                      ║
+║                                                               ║
+║  ➡️  NEXT ACTION                                              ║
+║     Specific first step for next session                      ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
 ```
 
 ---
@@ -267,31 +267,32 @@ no-look-pass-sessions/
 ## 🏀 The Basketball Metaphor
 
 ```
-                        🏀
-                       /
-                      /  "ALLEY-OOP!"
-                     /
-    ┌─────┐        /
-    │ YOU │ ──────/
-    │ NOW │
-    └─────┘
-
-    Context is full...
-    Toss it to the
-    future!
-                                        ╱
-                                       ╱
-                                      ╱  "SLAM DUNK!"
+                                      🏀
                                      ╱
-                                    🏀
-                               ┌─────────┐
-                               │   YOU   │
-                               │  LATER  │
-                               └─────────┘
+                                    ╱
+                                   ╱  "ALLEY-OOP!"
+                                  ╱
+     ┌───────────┐              ╱
+     │           │            ╱
+     │    YOU    │ ─────────╱
+     │    NOW    │
+     │           │
+     └───────────┘
+                                                          ╲
+     Context is full...                                    ╲
+     Toss it to your                                        ╲  "SLAM DUNK!"
+     future self!                                            ╲
+                                                              ╲    🏀
+                                                         ┌───────────┐
+                                                         │           │
+                                                         │    YOU    │
+                                                         │   LATER   │
+                                                         │           │
+                                                         └───────────┘
 
-                               Fresh context,
-                               full memory of
-                               where you left off!
+                                                         Fresh context,
+                                                         full memory of
+                                                         where you left off!
 ```
 
 ---
@@ -343,12 +344,19 @@ MIT — Use it, share it, modify it!
 <div align="center">
 
 ```
-   _____ _                         _____ __            __
-  / ___// /_____ ___  __   _______/ ___// /_____ ____ / /__
-  \__ \/ __/ __ `/ / / /  / ___/ /\__ \/ __/ __ `/ _ \/ //_/
- ___/ / /_/ /_/ / /_/ /  / /  / /___/ / /_/ /_/ /  __/ ,<
-/____/\__/\__,_/\__, /  /_/  /_//____/\__/\__,_/\___/_/|_|
-               /____/
+ ███████╗████████╗ █████╗ ██╗   ██╗
+ ██╔════╝╚══██╔══╝██╔══██╗╚██╗ ██╔╝
+ ███████╗   ██║   ███████║ ╚████╔╝
+ ╚════██║   ██║   ██╔══██║  ╚██╔╝
+ ███████║   ██║   ██║  ██║   ██║
+ ╚══════╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝
+
+ ███████╗████████╗ █████╗  ██████╗██╗  ██╗███████╗██████╗
+ ██╔════╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
+ ███████╗   ██║   ███████║██║     █████╔╝ █████╗  ██║  ██║
+ ╚════██║   ██║   ██╔══██║██║     ██╔═██╗ ██╔══╝  ██║  ██║
+ ███████║   ██║   ██║  ██║╚██████╗██║  ██╗███████╗██████╔╝
+ ╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═════╝
 ```
 
 **Made with 🏀 by developers who hate losing context**
