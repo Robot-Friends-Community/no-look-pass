@@ -1,0 +1,35 @@
+name: Feature Request
+description: Suggest a feature or improvement
+title: "[Feature]: "
+labels: ["enhancement", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to improve no-look-pass-sessions? We'd love to hear it!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Use Case
+      description: What problem does this solve?
+      placeholder: I often need to...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How would you like it to work?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any other approaches you've considered?
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be willing to help implement this feature
