@@ -54,34 +54,57 @@ That's exactly what `/alleyoop` does. When your Claude Code context is getting f
 
 ## 5-Minute Quickstart
 
+### Requirements
+
+- [Claude Code](https://claude.ai/code) installed and running
+- That's it. No other dependencies.
+
 ### Install
 
+**One-command install:**
+
 ```bash
-# macOS / Linux — copy method
-cp SKILL.md ~/.claude/skills/no-look-pass/SKILL.md
-mkdir -p ~/.claude/skills/no-look-pass/references
-cp references/*.md ~/.claude/skills/no-look-pass/references/
-cp commands/alleyoop.md ~/.claude/commands/
-cp commands/slamdunk.md ~/.claude/commands/
+# macOS / Linux
+git clone https://github.com/Robot-Friends-Community/no-look-pass.git
+cd no-look-pass && bash install.sh
 ```
 
 ```powershell
-# Windows — copy method
-$dest = "$env:USERPROFILE\.claude\skills\no-look-pass"
-New-Item -ItemType Directory -Force $dest\references | Out-Null
-Copy-Item SKILL.md $dest\
-Copy-Item references\*.md $dest\references\
-Copy-Item commands\alleyoop.md $env:USERPROFILE\.claude\commands\
-Copy-Item commands\slamdunk.md $env:USERPROFILE\.claude\commands\
+# Windows (PowerShell)
+git clone https://github.com/Robot-Friends-Community/no-look-pass.git
+cd no-look-pass; .\install.ps1
 ```
 
-### First Handoff
+The script copies everything into your Claude Code config and confirms what was installed.
 
-1. Work on your project until context reaches 50-60%
-2. Run `/alleyoop`
-3. Claude creates `HANDOFF-ALLEYOOP.md` and asks if you want to set up Instant Replay
-4. Clear context with `/clear`
-5. Run `/slamdunk` — full context restored, next action suggested
+**Manual install:**
+
+```bash
+# macOS / Linux
+mkdir -p ~/.claude/skills/no-look-pass/references ~/.claude/commands
+cp SKILL.md ~/.claude/skills/no-look-pass/
+cp references/*.md ~/.claude/skills/no-look-pass/references/
+cp commands/alleyoop.md commands/slamdunk.md ~/.claude/commands/
+```
+
+```powershell
+# Windows
+$b = "$env:USERPROFILE\.claude"
+New-Item -ItemType Directory -Force "$b\skills\no-look-pass\references","$b\commands" | Out-Null
+Copy-Item SKILL.md "$b\skills\no-look-pass\"; Copy-Item references\*.md "$b\skills\no-look-pass\references\"
+Copy-Item commands\alleyoop.md,commands\slamdunk.md "$b\commands\"
+```
+
+### First Use
+
+> **Important:** Always run these commands from inside your project folder — the handoff file saves there.
+
+1. `cd` into any project you're working on
+2. Work until Claude Code context fills to around 50-60%
+3. Run `/alleyoop`
+4. Claude saves your full work state and asks: *"Want to enable Instant Replay? [Y/n/never]"* — answer once, never asked again for that project
+5. Run `/clear` to reset context
+6. Run `/slamdunk` — full context restored, next action ready
 
 ---
 
